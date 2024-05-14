@@ -1,5 +1,5 @@
 import React from "react";
-
+//init render on `isDarkMode` -true?, toggle for full render on invoking `onDarkMode` click 
 function Header({ isDarkMode, onDarkModeClick }) {
   return (
     <header>

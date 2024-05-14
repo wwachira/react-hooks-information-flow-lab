@@ -1,3 +1,5 @@
+//{useState} hook manages `selectedCategory` state 
+//`handleStateCategory` updates the state `selectedCategory`
 import React, { useState } from "react";
 import Item from "./Item";
 
@@ -13,7 +15,8 @@ function ShoppingList({ items }) {
 
     return item.category === selectedCategory;
   });
-
+//filterd items are mapped ...for each item an...
+//an `Item` component is rendered with its  `key` properties id,name,categ...
   return (
     <div className="ShoppingList">
       <div className="Filter">
